@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background:rgb(227, 247, 255);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 650px;
+  margin: auto;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 16px -5px rgba(202, 51, 51, 0.75);
+}
+
+.container h1 {
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #040464;
+}
+
+.container form input {
+  width: 80%;
+  padding: 8px;
+  border: 3px solid #01c4ff;
+  border-radius: 5px;
+  outline: none;
+  margin: 25px 0;
+}
+
+.container form button {
+  padding: 10px 19px;
+  border-radius: 7px;
+  background: skyblue;
+  border: none;
+  font-size: 16px;
+}
+
+.container form button:hover {
+  cursor: pointer;
+}
+
+.grocery ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #ddf5ff;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+
+.grocery ul li span i {
+  margin-right: 4px;
+  color: #1ace1a;
+}
+
+.grocery ul li span i:hover {
+  cursor: pointer;
+}
+
+.container .clear {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 19px;
+  color: #09cc09;
+  letter-spacing: 1.9px;
+}
+
+.container .clear:hover {
+  cursor: pointer;
+}
